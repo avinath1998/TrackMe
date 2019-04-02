@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.productions.crackdown.bookingapp.Views.HomeViewFragment"
+    style="@style/MainTheme"
+    android:orientation="vertical">
+
+    <CalendarView
+        android:id="@+id/home_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+    <com.getbase.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pink_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        fab:fab_icon="@drawable/ic_add_btn"
+        fab:fab_colorNormal="@color/colorAccent"
+        fab:fab_colorPressed="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"/>
+
+
+
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/home_btn_create"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btn_create_appointment"
+            style="@style/ButtonPurple"/>
+
+        <Button
+            android:id="@+id/home_btn_view_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/home_btn_create"
+            android:text="@string/btn_view_editappointments"
+            style="@style/ButtonPurple"/>
+
+        <Button
+            android:id="@+id/home_btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/home_btn_view_edit"
+            android:text="@string/btn_delete_appointment"
+            style="@style/ButtonPurple"/>
+
+        <Button
+            android:id="@+id/home_btn_move"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/home_btn_delete"
+            android:text="@string/btn_move_appointment"
+            style="@style/ButtonPurple"/>
+
+        <Button
+            android:id="@+id/home_btn_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/home_btn_move"
+            android:text="@string/btn_search"
+            style="@style/ButtonPurple"/>
+
+    </RelativeLayout>-->
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BookMe</string>
+    <string name="btn_create_appointment">Create</string>
+    <string name="btn_delete_appointment">Delete</string>
+    <string name="btn_view_editappointments">View/Edit</string>
+    <string name="btn_move_appointment">Move</string>
+    <string name="btn_search">Search</string>
+    <string name="create_an_nappointment">Create an \nAppointment</string>
+    <string name="create_title">Title</string>
+    <string name="create_description">Description</string>
+    <string name="create_create">Create</string>
+    <string name="create_date">Date/Time</string>
+    <string name="home_appointments_no_appointments">No Appointments</string>
+    <string name="hint_delete_number">Delete Number</string>
+    <string name="delete">Delete</string>
+    <string name="delete_all">Delete All</string>
+    <string name="move">move</string>
+    <string name="hint_move_number">Move Number</string>
+    <string name="create_thesarus">thesaurus</string>
+    <string name="word">Word</string>
+    <string name="no_appointments">No Appointments</string>
+    <string name="please_try_again">Please try again.</string>
+    <string name="enter_query_error">Please enter a valid query.</string>
+    <string name="enter_valid_appointment_error">Please enter a valid appointment number to move</string>
+    <string name="date_selection_error">Select a date to move appointment into.</string>
+    <string name="delete_question">Delete?</string>
+    <string name="confirm_delete_all">Would you like to delete all appointments</string>
+    <string name="no_appointment">No Appointments</string>
+    <string name="delete_event_confirm">Would you like to delete event: \"</string>
+    <string name="delete_questions">Delete?</string>
+    <string name="generic_term">(generic term)</string>
+    <string name="similar_tem">(similar term)</string>
+    <string name="related_term">(related term)</string>
+    <string name="autonym">(autonym)</string>
+    <string name="enter_word_the_error">Please enter or select a word</string>
+    <string name="no_appointmnets_error">No Appointments</string>
+</resources>

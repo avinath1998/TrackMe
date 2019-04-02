@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
+    </style>
+
+    <style name="MainTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:background">@color/backgroundColor</item>
+    </style>
+    
+    <style name="ButtonPurple">
+        <item name="android:background">@drawable/purple_btn</item>
+        <item name="android:padding">20dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:weekNumberColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="ButtonPurpleRound">
+        <item name="android:background">@drawable/purple_btn_circle</item>
+        <item name="android:fontFamily">@font/nunito_semibold</item>
+        <item name="android:textColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="calendarTheme">
+        <item name="android:textColor">@color/textColorPrimary</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:focusedMonthDateColor">@color/textColorPrimary</item>
+        <item name="android:weekNumberColor">@color/textColorPrimary</item>
+    </style>
+
+    <style name="text_title">
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/nunito_bold</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+    </style>
+
+    <style name="inputbox">
+        <item name="android:padding">18dp</item>
+        <item name="background">@drawable/background_edittext</item>
+    </style>
+
+    <style name="Uneditable_edit">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">@color/cardBackgroundColor</item>
+    </style>
+
+    <style name="rounded_btn"></style>
+
+</resources>

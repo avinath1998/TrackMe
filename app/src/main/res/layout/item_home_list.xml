@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/item_layout_synonym"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardBackgroundColor="@color/textColorPrimary"
+    android:layout_marginTop="5dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/item_appointments_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1."
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:textColor="@color/textColorSecondary"/>
+
+        <LinearLayout
+            android:id="@+id/item_appointments_main_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/item_appointments_time"
+            android:layout_toRightOf="@id/item_appointments_number"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/item_appointments_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Meeting with Aisslynn"
+                style="@style/Uneditable_edit"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/item_appointments_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="40"
+                android:text="Talk about food and Youtube."
+                style="@style/Uneditable_edit"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/item_appointments_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignBottom="@+id/item_appointments_main_holder"
+            android:layout_toStartOf="@id/item_appointments_edit_btn"
+            android:layout_marginEnd="10dp"
+            style="@style/Uneditable_edit"
+            android:gravity="center|right"
+            android:text="11:38am" />
+
+        <ImageView
+            android:id="@+id/item_appointments_edit_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_create_white_24dp"
+            android:tint="@color/colorPrimary"/>
+
+        <ImageView
+            android:id="@+id/item_appointments_save_btn"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_check_black_24dp"
+            android:tint="@color/colorPrimary"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

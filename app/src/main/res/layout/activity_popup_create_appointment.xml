@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    style="@style/MainTheme"
+    android:background="@color/cardBackgroundColor"
+    tools:context="com.productions.crackdown.bookingapp.Views.CreateViewFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/create_text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/create_an_nappointment"
+                android:textSize="30sp"
+                style="@style/text_title" />
+
+            <View
+                android:id="@+id/create_dividider"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/create_text_title"
+                android:layout_marginTop="@dimen/horizontal_splitter_margin"
+                android:layout_marginBottom="@dimen/horizontal_splitter_margin"
+                android:layout_centerHorizontal="true"
+                android:background="#c0c0c0"/>
+
+            <EditText
+                android:id="@+id/create_edit_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/create_dividider"
+                android:fontFamily="@font/nunito"
+                android:hint="@string/create_title"
+                android:drawableStart="@drawable/ic_today_white_24dp"
+                android:drawableTint="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_edittext"
+                style="@style/inputbox"/>
+
+            <EditText
+                android:id="@+id/create_edit_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/create_edit_title"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="top"
+                android:fontFamily="@font/nunito"
+                android:hint="@string/create_description"
+                android:drawableStart="@drawable/ic_description_white_24dp"
+                android:drawableTint="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_edittext"
+                style="@style/inputbox"/>
+
+            <EditText
+                android:id="@+id/create_edit_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/create_edit_details"
+                android:layout_marginBottom="20dp"
+                android:gravity="top"
+                android:fontFamily="@font/nunito"
+                android:hint="@string/create_date"
+                android:drawableStart="@drawable/ic_date_range_white_24dp"
+                android:drawableTint="@color/colorAccent"
+                android:drawablePadding="10dp"
+                android:background="@drawable/background_edittext"
+                style="@style/inputbox"/>
+
+
+            <Button
+                android:id="@+id/create_btn_create"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/create_edit_date"
+                android:text="@string/create_create"
+                android:layout_gravity="center"
+                style="@style/ButtonPurple"/>
+
+        </RelativeLayout>
+
+</ScrollView>
